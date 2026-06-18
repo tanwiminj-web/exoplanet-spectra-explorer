@@ -35,7 +35,7 @@ export default function SpectrumChart({ planets, selectedIds }) {
   return (
     <div style={{ width: '100%' }}>
       <ResponsiveContainer width="100%" height={380}>
-        <LineChart data={chartData} margin={{ top: 10, right: 30, left: 0, bottom: 10 }}>
+        <LineChart data={chartData} margin={{ top: 40, right: 30, left: 0, bottom: 10 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#333" />
           <XAxis
             dataKey="wavelength"
